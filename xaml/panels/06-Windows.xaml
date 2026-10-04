@@ -23,7 +23,7 @@
                                 <TextBlock Text="APPEARANCE" Style="{StaticResource CardGroupHeader}"/>
 
                                 <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
-                                    <StackPanel Grid.Column="0"><TextBlock Text="Start Menu / Taskbar" Style="{StaticResource CardTitle}"/><TextBlock Text="Clean taskbar â€” remove search, widgets, chat." Style="{StaticResource CardDesc}"/></StackPanel>
+                                    <StackPanel Grid.Column="0"><TextBlock Text="Start Menu / Taskbar" Style="{StaticResource CardTitle}"/><TextBlock Text="Clean taskbar remove search, widgets, chat." Style="{StaticResource CardDesc}"/></StackPanel>
                                     <Button Name="BtnTaskbarClean"   Grid.Column="1" Content="Clean &#9733;"  Style="{StaticResource BtnAccent}"/>
                                     <Button Name="BtnTaskbarDefault" Grid.Column="3" Content="Default"   Style="{StaticResource Btn}"/>
                                 </Grid>
