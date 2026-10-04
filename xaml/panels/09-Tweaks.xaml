@@ -21,7 +21,7 @@
                         <Border Style="{StaticResource Card}" Padding="20,16">
                             <StackPanel>
                                 <TextBlock Style="{StaticResource CardDesc}"
-                                           Text="Granular, one-at-a-time control over the same Control Panel tweaks the Ultimate scripts apply in bulk. Each group below is collapsed by default â€” expand it, then Optimize or revert to Default per row. Use the search box to jump to a specific setting."/>
+                                           Text="Granular, one-at-a-time control over the same Control Panel tweaks the Ultimate scripts apply in bulk. Each group below is collapsed by default expand it, then Optimize or revert to Default per row. Use the search box to jump to a specific setting."/>
                             </StackPanel>
                         </Border>
 

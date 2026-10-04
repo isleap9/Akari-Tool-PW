@@ -8605,7 +8605,7 @@ $inputXML = @'
                                     <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="HDCP" Style="{StaticResource CardTitle}"/>
-                                        <TextBlock Text="Disable HDCP â€” reduces GPU overhead in some games." Style="{StaticResource CardDesc}"/>
+                                        <TextBlock Text="Disable HDCP reduces GPU overhead in some games." Style="{StaticResource CardDesc}"/>
                                     </StackPanel>
                                     <Button Name="BtnHdcpOff"     Grid.Column="1" Content="Off &#9733;"  Style="{StaticResource BtnAccent}"/>
                                     <Button Name="BtnHdcpDefault" Grid.Column="3" Content="Default" Style="{StaticResource Btn}"/>
@@ -9166,7 +9166,7 @@ $inputXML = @'
                         <Border Style="{StaticResource Card}" Padding="20,16">
                             <StackPanel>
                                 <TextBlock Style="{StaticResource CardDesc}"
-                                           Text="Granular, one-at-a-time control over the same Control Panel tweaks the Ultimate scripts apply in bulk. Each group below is collapsed by default â€” expand it, then Optimize or revert to Default per row. Use the search box to jump to a specific setting."/>
+                                           Text="Granular, one-at-a-time control over the same Control Panel tweaks the Ultimate scripts apply in bulk. Each group below is collapsed by default expand it, then Optimize or revert to Default per row. Use the search box to jump to a specific setting."/>
                             </StackPanel>
                         </Border>
 

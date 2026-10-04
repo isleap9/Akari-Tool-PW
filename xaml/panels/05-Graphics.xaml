@@ -101,7 +101,7 @@
                                     <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="HDCP" Style="{StaticResource CardTitle}"/>
-                                        <TextBlock Text="Disable HDCP â€” reduces GPU overhead in some games." Style="{StaticResource CardDesc}"/>
+                                        <TextBlock Text="Disable HDCP reduces GPU overhead in some games." Style="{StaticResource CardDesc}"/>
                                     </StackPanel>
                                     <Button Name="BtnHdcpOff"     Grid.Column="1" Content="Off &#9733;"  Style="{StaticResource BtnAccent}"/>
                                     <Button Name="BtnHdcpDefault" Grid.Column="3" Content="Default" Style="{StaticResource Btn}"/>
