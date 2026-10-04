@@ -16,7 +16,7 @@ See: `.planning/PROJECT.md` (updated Oct 04, 2026 after initialization)
 
 | # | Phase | Goal | Requirements | Success Criteria | Status |
 |---|-------|------|--------------|------------------|--------|
-| 1 | Batch Restore Point | Restore point creation button in Home tab | REQ-UX-03, HOME-XX | 4 criteria met | Not Started |
+| 1 | Batch Restore Point Creation | Restore point button in Home tab | REQ-UX-03, HOME-XX | 4 criteria met | Context Captured |
 
 ### Implementation Progress
 
@@ -30,6 +30,11 @@ See: `.planning/PROJECT.md` (updated Oct 04, 2026 after initialization)
 - ✓ STATE.md initialized — progress tracking structure established
 - ✓ .github/copilot-instructions.md created — architecture summary for code generation
 - ✓ All planning artifacts committed to git
+
+**Phase 1 Context Captured**: Oct 04, 2026
+- ✓ `.planning/phases/1/1-CONTEXT.md` created with implementation decisions
+- ✓ Commit: "docs(phase 1): capture implementation decisions for restore point creation"
+- ✓ Gray areas resolved: UI location, naming convention, feedback method, pre-flight warnings
 
 ---
 
@@ -56,12 +61,19 @@ See: `.planning/PROJECT.md` (updated Oct 04, 2026 after initialization)
    - ROADMAP.md defines 6 phased improvements with MVP behavior
    - Git commit tracking enabled for all planning artifacts
 
+2. **Phase 1 Discussion Complete** — Oct 04, 2026
+   - Discussed: UI Location, Naming Convention, Feedback Method, Pre-flight Warnings
+   - Decisions locked in `CONTEXT.md` for downstream agents
+   - Ready to proceed with planning
+
 ---
 
 ## Next Steps
 
-Run `/gsd-discuss-phase 1` to begin enhancing Batch Restore Point Creation as per milestone v1.0.
+**To plan Phase 1 implementation**: Run `/gsd-plan-phase 1` to create detailed plan with tasks, acceptance criteria, and dependency mapping.
 
-The roadmap is ready — each phase delivers end-to-end observable user behaviors, validates improvements, and moves toward a polished experience before progressing to the next enhancement.
+**Or review Phase 1 CONTEXT.md first**: Read `.planning/phases/1/1-CONTEXT.md` if you want to verify all decisions before planning. All gray areas are now resolved.
+
+---
 
 Auto-updated by GSD state management.
