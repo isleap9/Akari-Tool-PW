@@ -91,7 +91,7 @@
                                     <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/><ColumnDefinition Width="8"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
                                     <StackPanel Grid.Column="0">
                                         <TextBlock Text="Desktop Shortcut" Style="{StaticResource CardTitle}"/>
-                                        <TextBlock Text="Online: a Desktop icon that always runs the latest version from the web â€” nothing kept on disk.  Install: save a local copy under AppData and add a Desktop icon so you can tune offline. Both run as admin." Style="{StaticResource CardDesc}"/>
+                                        <TextBlock Text="Online: a Desktop icon that always runs the latest version from the web nothing kept on disk. Install: save a local copy under AppData and add a Desktop icon so you can tune offline. Both run as admin." Style="{StaticResource CardDesc}"/>
                                     </StackPanel>
                                     <Button Name="BtnHomeShortcutOnline"  Grid.Column="1" Content="Online"  Style="{StaticResource Btn}"/>
                                     <Button Name="BtnHomeShortcutOffline" Grid.Column="3" Content="Install &#9733;" Style="{StaticResource BtnAccent}"/>
