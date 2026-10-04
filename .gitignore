@@ -1,0 +1,12 @@
+# Binaries
+akari.ps1
+
+# Compiled files
+*.ps1.psx
+
+# GSD planning docs are committed (tracked in git)
+# .planning/ intentionally tracked per config.json `commit_docs: true`
+
+# Editor directories
+.vscode/
+.idea/
